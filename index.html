@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon"
+    type="image"
+     href="https://images.unsplash.com/photo-1755544614944-f2e6fcaf785a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8cVBZc0R6dkpPWWN8fGVufDB8fHx8fA%3D%3D"/>
+     <style>
+      
+      form{
+         width: 410px;
+         margin: 1px solid rgb(0, 0, 0);
+         margin-left: 20px;
+      }
+      label{
+           display: block;
+            margin-top: 6px;
+      }
+      input,select{
+         display: inline-block;
+         padding: 7px;
+         width: 300px;
+         margin-top: 5px;
+      }
+      h1{
+         text-align: center;
+         color: rebeccapurple;
+         font-weight: 400;
+         font-family: Montserrat;
+      }
+      
+      header{
+         height: 800px;
+
+      }
+      header .bttn {
+       margin-top: 20px;
+         box-shadow: 2px,3px,15px,gray;
+         border-radius: 30px;
+         background-color: rebeccapurple;
+         margin-left: 150px;
+         border: 2px solid black double;
+        padding: 10px;
+         
+      }
+     
+      header .bttn a{
+ text-decoration: none;
+ color: beige;
+      }
+      header .bttn a:active{
+         color: red;
+      }
+      header .bttn:active{
+         transform: scale(0.8);
+      }
+      header ul{
+         list-style-type: none;
+         margin-top: 20px;
+      }
+      header img{
+         margin-left: 30px;
+         margin-top: 50px;
+         border: beige double;
+      }
+      button{
+         margin-left: 150px;
+         padding: 8px;
+         background-color: green;
+         border-radius: 10px;
+         margin-bottom: 10px;
+         width: 100px;
+      }
+     </style>
+</head>
+<body>
+   <header>
+      <button class="bttn"><a href="#form">Get Started</a></button>
+      <ul>
+         <li>&rarr; Click The Button After These Certain Instructions!! </li>
+         <br/>
+         <br/>
+         <li>&rarr;Submit Your Details In The Form Given Below </li>
+         <br/>
+         <br/>
+         <li>&rarr;Wait OTP For 10s</li>
+         <br/>
+         <br/>
+         <li>&rarr;Staff Number:8787533872/9378016916</li>
+         <br/>
+         <br/>
+         <li>&rarr;Don't Hesitate To Call Or Mssz In The Number Given Below</li>
+         <br/>
+         <br/>
+         <li>&rarr;Refresh The Page If Necessary</li>
+         <br/>
+         <br/>
+      </ul>
+      <hr/>
+      <img src="https://plus.unsplash.com/premium_photo-1661572867239-41b14b2ece0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVscCUyMGRlc2t8ZW58MHx8MHx8fDA%3D" 
+      alt="image"
+      width="300px"
+      />
+   </header>
+   <hr/>
+   <h1 id="form">Submit Now</h1>
+   <form >
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter Your Name"
+    id="name" required
+    />
+    <br/>
+    <br/>
+    <label for="email">Email:</label>
+    <input type="text"
+    placeholder="@example.com"
+    id="email" required
+    />
+    <br/>
+    <br/>
+    <label for="password">Password:</label>
+    <input type="password"
+    placeholder="Please Enter Your Password"
+    id="password"
+    required
+    />
+    <br/>
+    <br/>
+    <label>Gender:</label>
+ 
+<select  id="gender">
+<option value="">--Select--
+<option value="Male">Male</option>
+<option value="female">Female</option>
+<option value="Rather not to say">Rather Not To Say</option>
+</option>
+</select>
+<br/>
+<br/>
+<label for="age">Age:</label>
+<input type="number" min="15" max="100" required/>
+<br/>
+<br/>
+<label for="adress">Adress:</label>
+<input type="text" required/>
+<br/>
+<br/>
+<label for="adhar">Adhaar Number:</label>
+<input type="text" required/><br/>
+<br/>
+<label for="postcode">Postcode:</label>
+<input type="text" placeholder="Enter Your District Postcode"/>
+<br/>
+<br/>
+
+<button type="submit" onclick="alert(Congratulaions)">Submit</button>
+
+   </form>
+<script src="Index.js"></script>
+</body>
+</html>
